@@ -1,9 +1,7 @@
 <div align="center">
 
 <img src="./assets/hero.svg" width="100%" alt="70s Retro Boombox & Vinyl Poster - Phạm Đức Phúc" />
-
 <br/><br/>
-
 <img src="./assets/groovy-cards.svg" width="100%" alt="About Me - Phạm Đức Phúc" />
 
 <p align="center">
