@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 44" width="100%" height="44">
+  <g fill="none" stroke-width="4.5" stroke-linecap="round">
+    <path d="M 20,13 L 260,13 Q 290,13 310,22 T 395,22" stroke="#3D997A"/>
+    <path d="M 20,18 L 260,18 Q 290,18 310,27 T 395,27" stroke="#F4A918"/>
+    <path d="M 20,23 L 260,23 Q 290,23 310,32 T 395,32" stroke="#E26D38"/>
+    <path d="M 20,28 L 260,28 Q 290,28 310,37 T 395,37" stroke="#8F2D14"/>
+
+    <path d="M 880,13 L 640,13 Q 610,13 590,22 T 505,22" stroke="#3D997A"/>
+    <path d="M 880,18 L 640,18 Q 610,18 590,27 T 505,27" stroke="#F4A918"/>
+    <path d="M 880,23 L 640,23 Q 610,23 590,32 T 505,32" stroke="#E26D38"/>
+    <path d="M 880,28 L 640,28 Q 610,28 590,37 T 505,37" stroke="#8F2D14"/>
+  </g>
+  <g transform="translate(450, 22)">
+    <path d="M 0,-21 Q 4,-4 21,0 Q 4,4 0,21 Q -4,4 -21,0 Q -4,-4 0,-21 Z" fill="#3D997A"/>
+    <path d="M 0,-15 Q 3,-3 15,0 Q 3,3 0,15 Q -3,3 -15,0 Q -3,-3 0,-15 Z" fill="#8F2D14"/>
+    <path d="M 0,-10 Q 2,-2 10,0 Q 2,2 0,10 Q -2,2 -10,0 Q -2,-2 0,-10 Z" fill="#E26D38"/>
+    <path d="M 0,-5 Q 1,-1 5,0 Q 1,1 0,5 Q -1,1 -5,0 Q -1,-1 0,-5 Z" fill="#F4A918"/>
+  </g>
+</svg>

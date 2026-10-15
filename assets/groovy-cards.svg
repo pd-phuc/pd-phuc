@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 236" width="100%" height="236">
+  <defs>
+    <clipPath id="aboutCardClip">
+      <rect x="14" y="14" width="692" height="208" rx="4"/>
+    </clipPath>
+
+    <!-- Animated Retro Palette Gradient for Line 3 -->
+    <linearGradient id="retroFlowGrad" gradientUnits="userSpaceOnUse" x1="185" y1="0" x2="520" y2="0">
+      <stop offset="0%" stop-color="#F4A918">
+        <animate attributeName="stop-color" values="#F4A918;#E26D38;#3D997A;#F2DFC1;#F4A918" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#E26D38">
+        <animate attributeName="stop-color" values="#E26D38;#3D997A;#F2DFC1;#F4A918;#E26D38" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#3D997A">
+        <animate attributeName="stop-color" values="#3D997A;#F2DFC1;#F4A918;#E26D38;#3D997A" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <style>
+      .tag {
+        font-family: 'Impact', 'Arial Narrow', 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+      }
+      .title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 23px;
+        letter-spacing: 0.6px;
+        fill: #F2DFC1;
+      }
+      .bullet-icon {
+        font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 14.5px;
+        fill: #E26D38;
+      }
+      .about-line {
+        font-family: 'Trebuchet MS', 'Segoe UI', 'Yu Gothic', 'Meiryo', Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        fill: #E6CEAA;
+      }
+      .bold-gold {
+        font-weight: 800;
+        fill: #F4A918;
+      }
+      .bold-teal {
+        font-weight: 800;
+        fill: #3D997A;
+      }
+      .bold-orange {
+        font-weight: 800;
+        fill: #E26D38;
+      }
+      .bold-animated {
+        font-weight: 800;
+        fill: url(#retroFlowGrad);
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Vintage Cream Frame -->
+  <rect x="2" y="2" width="716" height="232" rx="6" fill="#F2DFC1" stroke="#28231F" stroke-width="3.5"/>
+
+  <!-- Inner Charcoal Card Background -->
+  <rect x="14" y="14" width="692" height="208" rx="4" fill="#181512" />
+
+  <g clip-path="url(#aboutCardClip)">
+    <!-- Top Retro Window Header Bar -->
+    <rect x="14" y="14" width="692" height="34" fill="#241F1B" />
+    <line x1="14" y1="48" x2="706" y2="48" stroke="#E26D38" stroke-width="2" />
+
+    <!-- Retro Window Dots -->
+    <circle cx="32" cy="31" r="5.5" fill="#E26D38" />
+    <circle cx="48" cy="31" r="5.5" fill="#F4A918" />
+    <circle cx="64" cy="31" r="5.5" fill="#3D997A" />
+
+    <!-- Header Section Tag -->
+    <text x="84" y="36" class="tag" fill="#F4A918">★ ABOUT ME // PROFILE</text>
+
+    <!-- Subtle Vertical Divider Between Text & Illustration -->
+    <line x1="544" y1="62" x2="544" y2="210" stroke="#2E2722" stroke-width="2" stroke-dasharray="4 4" />
+
+    <!-- ================= NỘI DUNG ABOUT ME (SỬA TRỰC TIẾP TẠI ĐÂY) ================= -->
+    <!-- Tiêu đề chào hỏi -->
+    <text x="28" y="78" class="title">Hi, I'm Phuc</text>
+
+    <!-- Dòng 1 -->
+    <text x="28" y="106" class="bullet-icon">▸</text>
+    <text x="44" y="106" class="about-line">I'm currently a student of <tspan class="bold-orange">FPT University.</tspan></text>
+
+    <!-- Dòng 2 -->
+    <text x="28" y="132" class="bullet-icon">▸</text>
+    <text x="44" y="132" class="about-line">My major is <tspan class="bold-teal">Software Engineering (SE).</tspan></text>
+
+    <!-- Dòng 3 (Chuyển màu liên tục theo bảng màu Retro) -->
+    <text x="28" y="158" class="bullet-icon">▸</text>
+    <text x="44" y="158" class="about-line">I'm currently learning <tspan class="bold-animated">Web development and Japanese (N5 level btw).</tspan></text>
+
+    <!-- Dòng 4 (Tô đậm chữ tiếng Nhật) -->
+    <text x="28" y="184" class="bullet-icon">▸</text>
+    <text x="44" y="184" class="about-line" font-weight="800" fill="#F2DFC1" stroke="#F2DFC1" stroke-width="0.4">私の趣味は音楽とアニメです。</text>
+
+    <!-- Dòng 5 -->
+    <text x="28" y="210" class="bullet-icon">▸</text>
+    <text x="44" y="210" class="about-line">If you have any questions, <tspan class="bold-gold">contact me.</tspan></text>
+    <!-- ============================================================================= -->
+
+    <!-- ================= HÌNH MINH HỌA MÁY TÍNH CRT RETRO & LY CÀ PHÊ ================= -->
+    <g transform="translate(550, 75)">
+      <!-- Subtle Sunburst Glow Behind CRT -->
+      <circle cx="68" cy="56" r="52" fill="#241F1B" />
+
+      <!-- Monitor Base / Stand -->
+      <path d="M 40,96 L 80,96 L 88,108 L 32,108 Z" fill="#D9C3A3" stroke="#28231F" stroke-width="2.5" stroke-linejoin="round" />
+      <rect x="24" y="108" width="72" height="7" rx="2" fill="#E26D38" stroke="#28231F" stroke-width="2.5" />
+
+      <!-- CRT Monitor Outer Casing (Shadow + Cream Body) -->
+      <rect x="12" y="10" width="104" height="84" rx="8" fill="#0D0B0A" />
+      <rect x="8" y="6" width="104" height="84" rx="8" fill="#F2DFC1" stroke="#28231F" stroke-width="3" />
+
+      <!-- CRT Inner Dark Screen -->
+      <rect x="16" y="14" width="74" height="62" rx="5" fill="#18221F" stroke="#28231F" stroke-width="2.5" />
+
+      <!-- Code Lines on CRT Screen -->
+      <rect x="23" y="23" width="24" height="4" rx="2" fill="#E26D38" />
+      <rect x="51" y="23" width="18" height="4" rx="2" fill="#F4A918" />
+
+      <rect x="29" y="33" width="38" height="4" rx="2" fill="#3D997A" />
+      <rect x="29" y="43" width="28" height="4" rx="2" fill="#F2DFC1" opacity="0.85" />
+      <rect x="61" y="43" width="16" height="4" rx="2" fill="#F4A918" />
+
+      <rect x="23" y="53" width="20" height="4" rx="2" fill="#E26D38" />
+
+      <!-- Active Prompt Line + Animated Blinking Cursor -->
+      <text x="23" y="69" font-family="monospace" font-weight="900" font-size="10" fill="#3D997A">&gt;</text>
+      <rect x="32" y="61" width="7" height="9" fill="#F4A918">
+        <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite" />
+      </rect>
+
+      <!-- CRT Side Control Knobs & Power LED -->
+      <circle cx="101" cy="26" r="4.5" fill="#E26D38" stroke="#28231F" stroke-width="1.8" />
+      <circle cx="101" cy="40" r="4.5" fill="#28231F" />
+      <line x1="97" y1="56" x2="105" y2="56" stroke="#28231F" stroke-width="2" stroke-linecap="round" />
+      <line x1="97" y1="61" x2="105" y2="61" stroke="#28231F" stroke-width="2" stroke-linecap="round" />
+      <circle cx="101" cy="72" r="2.5" fill="#3D997A">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+
+      <!-- Retro Steaming Coffee Mug Next to Monitor (Sitting flush on the desk baseline y=115) -->
+      <g transform="translate(110.5, 89)">
+        <!-- Rising Steam Waves -->
+        <path d="M 10,-6 Q 7,-12 11,-17" fill="none" stroke="#F2DFC1" stroke-width="1.8" stroke-linecap="round" opacity="0.7">
+          <animate attributeName="transform" type="translate" values="0,2; 0,-3; 0,2" dur="2.5s" repeatCount="indefinite" />
+        </path>
+        <path d="M 18,-4 Q 15,-10 19,-15" fill="none" stroke="#F2DFC1" stroke-width="1.8" stroke-linecap="round" opacity="0.5">
+          <animate attributeName="transform" type="translate" values="0,-2; 0,3; 0,-2" dur="2.5s" repeatCount="indefinite" />
+        </path>
+        <!-- Mug Handle -->
+        <path d="M 24,6 C 32,6 32,20 24,20" fill="none" stroke="#F4A918" stroke-width="3" />
+        <!-- Mug Body -->
+        <rect x="4" y="0" width="21" height="26" rx="3" fill="#E26D38" stroke="#28231F" stroke-width="2.5" />
+        <rect x="4" y="7" width="21" height="5" fill="#F4A918" />
+        <rect x="4" y="13" width="21" height="4" fill="#3D997A" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Inner Crisp Orange Border -->
+  <rect x="14" y="14" width="692" height="208" rx="4" fill="none" stroke="#E26D38" stroke-width="2.5"/>
+
+  <!-- Corner Registration Dots -->
+  <rect x="7" y="7" width="3.5" height="3.5" fill="#28231F" />
+  <rect x="709.5" y="7" width="3.5" height="3.5" fill="#28231F" />
+  <rect x="7" y="225.5" width="3.5" height="3.5" fill="#28231F" />
+  <rect x="709.5" y="225.5" width="3.5" height="3.5" fill="#28231F" />
+</svg>

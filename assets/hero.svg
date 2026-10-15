@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 336" width="100%" height="336">
+  <defs>
+    <clipPath id="posterClip">
+      <rect x="18" y="18" width="704" height="300" rx="2" />
+    </clipPath>
+    <!-- 70s Vintage Vertical Gradient (Teal -> Sage -> Mustard -> Deep Orange) -->
+    <linearGradient id="vintageTextGrad" x1="0%" y1="12%" x2="0%" y2="92%">
+      <stop offset="0%" stop-color="#1A8276" />
+      <stop offset="32%" stop-color="#3D997A" />
+      <stop offset="52%" stop-color="#9BB44B" />
+      <stop offset="74%" stop-color="#F6AF19" />
+      <stop offset="100%" stop-color="#E65C12" />
+    </linearGradient>
+    <!-- Horizontal Vintage Scanlines Overlay Pattern -->
+    <pattern id="vintageScanlines" width="20" height="3.2" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="20" y2="0" stroke="#182622" stroke-opacity="0.22" stroke-width="1.3" />
+    </pattern>
+    <style>
+      @font-face {
+        font-family: 'LobsterVintage';
+        font-style: normal;
+        font-weight: 400;
+        src: url('data:font/woff2;base64,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') format('woff2');
+      }
+      .vintage-script {
+        font-family: 'LobsterVintage', 'Brush Script MT', Georgia, cursive;
+        font-size: 76px;
+        letter-spacing: 1.5px;
+        paint-order: stroke fill;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+      .condensed-banner {
+        font-family: 'Impact', 'Arial Narrow', 'Trebuchet MS', sans-serif;
+        font-weight: 900;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Vintage Aged Paper Poster Border -->
+  <rect x="2" y="2" width="736" height="332" rx="6" fill="#F2DFC1" stroke="#28231F" stroke-width="4"/>
+
+  <!-- Base Poster Fill -->
+  <rect x="18" y="18" width="704" height="300" fill="#EF9E63" />
+
+  <!-- ================= CLIPPED POSTER ARTWORK ================= -->
+  <g clip-path="url(#posterClip)">
+
+    <!-- 1. ROTATING 360° RADIAL SUNBURST RAYS -->
+    <g fill="#E26D38">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 300 132"
+        to="360 300 132"
+        dur="50s"
+        repeatCount="indefinite"
+      />
+        <polygon points="300,132 1400.0,132.0 1378.9,346.6" />
+        <polygon points="300,132 1316.3,553.0 1214.6,743.1" />
+        <polygon points="300,132 1077.8,909.8 911.1,1046.6" />
+        <polygon points="300,132 721.0,1148.3 514.6,1210.9" />
+        <polygon points="300,132 300.0,1232.0 85.4,1210.9" />
+        <polygon points="300,132 -121.0,1148.3 -311.1,1046.6" />
+        <polygon points="300,132 -477.8,909.8 -614.6,743.1" />
+        <polygon points="300,132 -716.3,553.0 -778.9,346.6" />
+        <polygon points="300,132 -800.0,132.0 -778.9,-82.6" />
+        <polygon points="300,132 -716.3,-289.0 -614.6,-479.1" />
+        <polygon points="300,132 -477.8,-645.8 -311.1,-782.6" />
+        <polygon points="300,132 -121.0,-884.3 85.4,-946.9" />
+        <polygon points="300,132 300.0,-968.0 514.6,-946.9" />
+        <polygon points="300,132 721.0,-884.3 911.1,-782.6" />
+        <polygon points="300,132 1077.8,-645.8 1214.6,-479.1" />
+        <polygon points="300,132 1316.3,-289.0 1378.9,-82.6" />
+    </g>
+
+    <!-- 2. SLANTED VINTAGE POSTER RIBBONS -->
+    <g transform="rotate(-3.5, 40, 195)">
+      <!-- Cream Base Under Ribbons -->
+      <rect x="-60" y="178" width="900" height="200" fill="#F2DFC1" />
+
+      <!-- Top Thin Accent Line -->
+      <rect x="-60" y="178" width="900" height="5" fill="#E26D38" />
+
+      <!-- Line 1 Bar (Burnt Orange - Height: 35px) -->
+      <rect x="-60" y="188" width="900" height="35" fill="#E26D38" />
+
+      <!-- Line 2 Bar (Charcoal Black - Height: 45px) -->
+      <rect x="-60" y="228" width="900" height="45" fill="#28231F" />
+
+      <!-- Line 3 Bar (Mint Teal - Height: 38px) -->
+      <rect x="-60" y="278" width="900" height="38" fill="#3D997A" />
+
+      <!-- ================= 3 DÒNG CHỮ TRÊN 3 DẢI MÀU (SỬA TRỰC TIẾP TẠI ĐÂY) ================= -->
+      <!-- Dòng 1 (Nền cam) -->
+      <text x="230" y="212" text-anchor="middle" class="condensed-banner" font-size="19.5" fill="#F2DFC1">★ FULL-STACK DEVELOPER ★</text>
+
+      <!-- Dòng 2 (Nền đen) -->
+      <text x="230" y="259" text-anchor="middle" class="condensed-banner" font-size="26.5" fill="#F4A918">JUST • DO • IT</text>
+
+      <!-- Dòng 3 (Nền xanh) -->
+      <text x="230" y="303" text-anchor="middle" class="condensed-banner" font-size="18.5" fill="#F2DFC1">HO CHI MINH CITY, VIET NAM</text>
+      <!-- ===================================================================================== -->
+    </g>
+
+    <!-- 3. SPINNING VINYL RECORD ICON (Stationary Shadow + Centered Disc) -->
+    <circle cx="96" cy="96" r="43" fill="#28231F" />
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 90 90" to="360 90 90" dur="8s" repeatCount="indefinite" />
+      <circle cx="90" cy="90" r="42" fill="#28231F" stroke="#F2DFC1" stroke-width="2.5" />
+      <path d="M 63,90 A 27,27 0 0,1 90,63" fill="none" stroke="#EF9E63" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M 117,90 A 27,27 0 0,1 90,117" fill="none" stroke="#3D997A" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M 71,90 A 19,19 0 0,1 90,71" fill="none" stroke="#F2DFC1" stroke-width="1.5" stroke-linecap="round" />
+      <path d="M 109,90 A 19,19 0 0,1 90,109" fill="none" stroke="#F4A918" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="90" cy="90" r="13" fill="#F2DFC1" stroke="#E26D38" stroke-width="3" />
+      <circle cx="90" cy="90" r="3.5" fill="#28231F" />
+    </g>
+
+    <!-- 4. 70s VINTAGE VECTOR TEXT EFFECT ("pd-phuc") -->
+    <g transform="translate(162, 114) rotate(-4.5)">
+      <!-- Layer 1: Deep Outer Espresso 3D Extrusion (#22100A) -->
+      <text x="11" y="12" class="vintage-script" fill="#22100A" stroke="#22100A" stroke-width="14">pd-phuc</text>
+      <text x="8.5" y="9.5" class="vintage-script" fill="#22100A" stroke="#22100A" stroke-width="13">pd-phuc</text>
+
+      <!-- Layer 2: Middle Mustard Gold 3D Ribbon Slice (#F4A918) -->
+      <text x="6" y="6.5" class="vintage-script" fill="#F4A918" stroke="#F4A918" stroke-width="7">pd-phuc</text>
+
+      <!-- Layer 3: Inner Espresso 3D Extrusion (#22100A) -->
+      <text x="3.5" y="4" class="vintage-script" fill="#22100A" stroke="#22100A" stroke-width="9">pd-phuc</text>
+      <text x="1.5" y="2" class="vintage-script" fill="#22100A" stroke="#22100A" stroke-width="7">pd-phuc</text>
+
+      <!-- Layer 4: Crisp Cream Inner Highlight Rim (#FFF6E5) & Teal-to-Orange Gradient Fill -->
+      <text x="0" y="0" class="vintage-script" fill="url(#vintageTextGrad)" stroke="#FFF6E5" stroke-width="3">pd-phuc</text>
+
+      <!-- Layer 5: Horizontal Vintage Scanline Stripes Overlay on Letter Face -->
+      <text x="0" y="0" class="vintage-script" fill="url(#vintageScanlines)" stroke="none">pd-phuc</text>
+    </g>
+
+    <!-- 5. RETRO MINT-TEAL & ORANGE BOOMBOX ILLUSTRATION -->
+    <g transform="translate(-140, 0)">
+      <g transform="rotate(-4.5, 705, 190)">
+        <!-- Boombox Handle -->
+        <path d="M 620,114 L 620,90 L 790,90 L 790,114" fill="none" stroke="#28231F" stroke-width="8" stroke-linejoin="miter" />
+        <path d="M 627,114 L 627,96 L 783,96 L 783,114" fill="none" stroke="#3D997A" stroke-width="3.5" />
+        <!-- Antenna -->
+        <line x1="798" y1="114" x2="826" y2="52" stroke="#28231F" stroke-width="3.5" stroke-linecap="round" />
+        <circle cx="826" cy="52" r="4.5" fill="#E26D38" stroke="#28231F" stroke-width="2" />
+
+        <!-- Boombox Heavy Offset Shadow -->
+        <rect x="600" y="120" width="230" height="136" rx="4" fill="#28231F" />
+        <!-- Left Orange Side Depth Panel -->
+        <rect x="584" y="128" width="14" height="122" fill="#E26D38" stroke="#28231F" stroke-width="3" />
+
+        <!-- Boombox Main Body -->
+        <rect x="592" y="114" width="228" height="134" rx="3" fill="#F2DFC1" stroke="#28231F" stroke-width="3.5" />
+        <rect x="600" y="122" width="212" height="118" fill="#3D997A" stroke="#28231F" stroke-width="3" />
+
+        <!-- Top Radio Tuner Scale Bar -->
+        <rect x="610" y="130" width="164" height="22" fill="#28231F" />
+        <g stroke="#F2DFC1" stroke-width="1.5">
+          <line x1="620" y1="134" x2="620" y2="148" />
+          <line x1="630" y1="137" x2="630" y2="148" />
+          <line x1="640" y1="134" x2="640" y2="148" />
+          <line x1="650" y1="137" x2="650" y2="148" />
+          <line x1="660" y1="134" x2="660" y2="148" />
+          <line x1="670" y1="137" x2="670" y2="148" />
+          <line x1="680" y1="133" x2="680" y2="149" stroke="#E26D38" stroke-width="2.5" />
+          <line x1="690" y1="137" x2="690" y2="148" />
+          <line x1="700" y1="134" x2="700" y2="148" />
+          <line x1="710" y1="137" x2="710" y2="148" />
+          <line x1="720" y1="134" x2="720" y2="148" />
+          <line x1="730" y1="137" x2="730" y2="148" />
+          <line x1="740" y1="134" x2="740" y2="148" />
+          <line x1="750" y1="137" x2="750" y2="148" />
+          <line x1="760" y1="134" x2="760" y2="148" />
+        </g>
+        <circle cx="792" cy="141" r="10.5" fill="#F2DFC1" stroke="#28231F" stroke-width="2.8" />
+        <circle cx="792" cy="141" r="3.5" fill="#28231F" />
+
+        <!-- Left Woofer Speaker -->
+        <circle cx="638" cy="198" r="33" fill="#F2DFC1" stroke="#28231F" stroke-width="3.5" />
+        <circle cx="638" cy="198" r="26" fill="#28231F" />
+        <path d="M 618,198 L 658,198 M 638,178 L 638,218 M 624,184 L 652,212 M 652,184 L 624,212" stroke="#3D997A" stroke-width="1.5" />
+        <circle cx="638" cy="198" r="8" fill="#3D997A" stroke="#F2DFC1" stroke-width="2" />
+
+        <!-- Right Woofer Speaker -->
+        <circle cx="774" cy="198" r="33" fill="#F2DFC1" stroke="#28231F" stroke-width="3.5" />
+        <circle cx="774" cy="198" r="26" fill="#28231F" />
+        <path d="M 754,198 L 794,198 M 774,178 L 774,218 M 760,184 L 788,212 M 788,184 L 760,212" stroke="#3D997A" stroke-width="1.5" />
+        <circle cx="774" cy="198" r="8" fill="#3D997A" stroke="#F2DFC1" stroke-width="2" />
+
+        <!-- Center Cassette Deck -->
+        <rect x="676" y="174" width="60" height="38" fill="#28231F" stroke="#F2DFC1" stroke-width="2.5" />
+        <rect x="682" y="179" width="48" height="12" fill="#E26D38" />
+
+        <!-- Left Tape Reel -->
+        <circle cx="694" cy="200" r="6.5" fill="#F2DFC1" />
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0 694 200" to="360 694 200" dur="3s" repeatCount="indefinite" />
+          <line x1="689" y1="200" x2="699" y2="200" stroke="#28231F" stroke-width="2" />
+          <line x1="694" y1="195" x2="694" y2="205" stroke="#28231F" stroke-width="2" />
+        </g>
+
+        <!-- Right Tape Reel -->
+        <circle cx="718" cy="200" r="6.5" fill="#F2DFC1" />
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0 718 200" to="360 718 200" dur="3s" repeatCount="indefinite" />
+          <line x1="713" y1="200" x2="723" y2="200" stroke="#28231F" stroke-width="2" />
+          <line x1="718" y1="195" x2="718" y2="205" stroke="#28231F" stroke-width="2" />
+        </g>
+
+        <!-- Cassette Control Buttons -->
+        <rect x="678" y="218" width="10" height="12" fill="#F2DFC1" stroke="#28231F" stroke-width="2" />
+        <rect x="690" y="218" width="10" height="12" fill="#E26D38" stroke="#28231F" stroke-width="2" />
+        <rect x="702" y="218" width="10" height="12" fill="#F2DFC1" stroke="#28231F" stroke-width="2" />
+        <rect x="714" y="218" width="10" height="12" fill="#F2DFC1" stroke="#28231F" stroke-width="2" />
+        <rect x="726" y="218" width="10" height="12" fill="#F4A918" stroke="#28231F" stroke-width="2" />
+      </g>
+    </g>
+
+  </g>
+
+  <!-- INNER BLACK BORDER DRAWN ON TOP OF ARTWORK -->
+  <rect x="18" y="18" width="704" height="300" rx="2" fill="none" stroke="#28231F" stroke-width="3.5"/>
+
+  <!-- Vintage Poster Corner Registration Marks -->
+  <rect x="8" y="8" width="4" height="4" fill="#28231F" />
+  <rect x="728" y="8" width="4" height="4" fill="#28231F" />
+  <rect x="8" y="324" width="4" height="4" fill="#28231F" />
+  <rect x="728" y="324" width="4" height="4" fill="#28231F" />
+</svg>
