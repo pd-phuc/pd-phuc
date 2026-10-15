@@ -90,13 +90,9 @@
 ### 🎶 `GITHUB STATS`
 
 <p align="center">
-  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=pd-phuc&show_icons=true&hide_border=true&hide=stars&include_all_commits=true&bg_color=28231F&title_color=F4A918&text_color=F2DFC1&icon_color=3D997A" alt="GitHub Stats" />
-  <img height="175em" src="https://streak-stats.demolab.com?user=pd-phuc&hide_border=true&background=28231F&ring=E26D38&fire=F4A918&currStreakLabel=3D997A&sideLabels=E26D38&currStreakNum=F2DFC1&sideNums=F2DFC1&dates=E6CEAA" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pd-phuc&theme=gruvbox&exclude=TeX,Blade" alt="Top Languages by Commit" />
-  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pd-phuc&theme=gruvbox" alt="Profile Details" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=pd-phuc&show_icons=true&hide_border=true&hide=stars&include_all_commits=true&bg_color=28231F&title_color=F4A918&text_color=F2DFC1&icon_color=3D997A" alt="GitHub Stats" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pd-phuc&theme=gruvbox&exclude=TeX,Blade" alt="Top Languages by Commit" />
+  <img height="160" src="https://streak-stats.demolab.com?user=pd-phuc&hide_border=true&background=28231F&ring=E26D38&fire=F4A918&currStreakLabel=3D997A&sideLabels=E26D38&currStreakNum=F2DFC1&sideNums=F2DFC1&dates=E6CEAA" alt="GitHub Streak" />
 </p>
 
 </div>
